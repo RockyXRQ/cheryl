@@ -1,1 +1,1 @@
-This is the source code of Rocky's public academic website: https://www.rocky-xrq.com/, which is modified from Jon Barron's public academic website: https://jonbarron.info/. You are welcome to clone for personal usage.
+💝
