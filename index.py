@@ -97,7 +97,7 @@ galleries = [
         name="🤖 Robot",
         items=[
             Item(
-                image="assets/82142022.jpg",
+                image="assets/82142022.png",
                 name="FRC 2022 Robot (Team 8214)",
                 tags=[
                     Tag(name="FRC", color="yellow"),
