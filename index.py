@@ -1,9 +1,9 @@
 from item import Head, Bio, link, Post, Item, Gallery, Tag, award, Moments
 
 head = Head(
-    title="Rocky Xu",
-    description="Rocky Xu's academic website",
-    keywords="Rocky Xu, academic website, personal website",
+    title="Cheryl Shi",
+    description="Cheryl 's academic website",
+    keywords="Cheryl Shi,Cheryl, Lijie Shi, academic website, personal website",
 )
 
 bio = Bio(
