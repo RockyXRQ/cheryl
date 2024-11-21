@@ -1,0 +1,208 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #333333;
+}
+
+:root[data-theme="dark"] {
+    --bg-color: #1a1a1a;
+    --text-color: #c4c4c4;
+}
+
+.theme-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 8px;
+    border-radius: 50%;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 24px;
+    z-index: 1000;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    max-width: 710px;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+table.bio {
+    width: 100%;
+    border-collapse: collapse;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table.section-title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    font-size: 21px;
+    font-weight: 500;
+}
+
+table.section-content {
+    margin: 0 auto;
+}
+
+td.bio-text {
+    width: 65%;
+}
+
+td.bio-image {
+    padding: 20px;
+    width: 35%;
+    max-width: 30%;
+}
+
+img.bio-image {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle
+}
+
+a.link {
+    color: orange;
+    text-decoration: none;
+}
+
+a.link:hover {
+    color: orangered;
+}
+
+.bio-name {
+    text-align: left;
+    font-size: 30px;
+}
+
+.bio-contacts {
+    text-align: center;
+}
+
+.moments-moment {
+    vertical-align: middle;
+    text-align: left;
+}
+
+.moments-moment-ellipsis {
+    padding-top: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.gallery-item:not(:first-child) td {
+    padding-top: 20px;
+}
+
+.gallery-item-image {
+    width: 24.5%;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.gallery-item-text {
+    width: 71%;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.gallery-item-text-name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.bullet-list {
+    margin-top: -7px;
+}
+
+.bullet-item {
+    display: flex;
+    margin-bottom: 0px;
+}
+
+.bullet-point {
+    flex-shrink: 0;
+    width: 10px;
+}
+
+.bullet-text {
+    flex: 1;
+}
+
+@media screen and (max-width: 600px) {
+
+    table.bio tr,
+    tr.gallery-item {
+        display: flex;
+        flex-direction: column;
+    }
+
+    td.bio-image,
+    td.bio-text,
+    td.gallery-item-image,
+    td.gallery-item-text {
+        width: 100%;
+        max-width: 100%;
+        display: block;
+    }
+
+    td.bio-image {
+        padding: 10px 0;
+    }
+
+    td.gallery-item-text {
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 20px;
+    }
+}
+
+.waving-hand {
+    display: inline-block;
+    animation: wave 2.5s infinite;
+    transform-origin: 70% 70%;
+}
+
+@keyframes wave {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(14deg);
+    }
+
+    20% {
+        transform: rotate(-8deg);
+    }
+
+    30% {
+        transform: rotate(14deg);
+    }
+
+    40% {
+        transform: rotate(-4deg);
+    }
+
+    50% {
+        transform: rotate(10deg);
+    }
+
+    60% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
