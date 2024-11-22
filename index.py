@@ -42,6 +42,8 @@ moments = Moments(
     ],
 )
 
+_FRC_TAG = Tag(name="FRC", color="0066B3", logo="first")
+
 galleries = [
     Gallery(
         name="🎓 Education",
@@ -100,7 +102,7 @@ galleries = [
                 image="assets/82142022.png",
                 name="FRC 2022 Robot (Team 8214)",
                 tags=[
-                    Tag(name="FRC", color="yellow"),
+                    _FRC_TAG,
                     Tag(name="Robotics", color="brightgreen"),
                 ],
                 links=[
@@ -145,7 +147,7 @@ galleries = [
                 image="assets/shooter.png",
                 name="A Ball Collection Mechanism for Robot Ball Shooter",
                 tags=[
-                    Tag(name="Shooter", color="orange"),
+                    _FRC_TAG,
                     Tag(name="Robotics", color="brightgreen"),
                 ],
                 links=[
