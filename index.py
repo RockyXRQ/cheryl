@@ -7,7 +7,7 @@ head = Head(
 )
 
 bio = Bio(
-    title="Hello, and welcome!!!",
+    title="Hello, and welcome!",
     image="assets/me.png",
     paragraphs=[
         f"I'm Cheryl Shi, a postgraduate student in {link('HUST','https://www.hust.edu.cn/')} 👩🏻‍🎓 working on thermoelectric materials ⚡, {link('FIRST','https://www.firstinspires.org/robotics/frc')} alumni 🎓 and FRC mentor in team {link('8214 Cyber Unicorn', 'https://www.thebluealliance.com/team/8214')} 🦄",
