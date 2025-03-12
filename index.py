@@ -7,7 +7,7 @@ head = Head(
 )
 
 bio = Bio(
-    title="Hello, and welcome!!!",
+    title="Hello, and welcome!",
     image="assets/me.png",
     paragraphs=[
         f"I'm Cheryl Shi, a postgraduate student in {link('HUST','https://www.hust.edu.cn/')} 👩🏻‍🎓 working on thermoelectric materials ⚡, {link('FIRST','https://www.firstinspires.org/robotics/frc')} alumni 🎓 and FRC mentor in team {link('8214 Cyber Unicorn', 'https://www.thebluealliance.com/team/8214')} 🦄",
@@ -126,11 +126,28 @@ galleries = [
         name="🗃️ Selected Publications",
         items=[
             Item(
+                image="assets/newest-snse.jpg",
+                name="High thermoelectric performance of polycrystalline SnSe prepared by cold sintering",
+                tags=[
+                    Tag(name="SnSe", color="black"),
+                    Tag(name="Cold Sintering", color="blue"),
+                ],
+                links=[
+                    "2025.2.26",
+                    "Lijie Shi, Jun Ding, Xiangbin Chen, Xiang Qu, Man Jiang, Zhiquan Chen",
+                    link("HUST", "https://www.hust.edu.cn/"),
+                    link(
+                        "Full Text",
+                        "https://doi.org/10.1016/j.ceramint.2025.02.361 ",
+                    ),
+                ],
+            ),
+            Item(
                 image="assets/snse.png",
                 name="Study of heat treatment temperature on the thermoelectric properties of cold-sintered SnSe",
                 tags=[
                     Tag(name="SnSe", color="black"),
-                    Tag(name="Cold Sintered", color="blue"),
+                    Tag(name="Cold Sintering", color="blue"),
                 ],
                 links=[
                     "2024.6.4",
