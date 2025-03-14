@@ -19,7 +19,7 @@ bio = Bio(
         link(
             "CNKI",
             "https://kns.cnki.net/kcms2/author/detail?v=At0rObma_qO5Q6Kjsmwk8TjUzFX3KJa4v1D5eTbYNfGhZItRV6q9a9yZtgF1_Qexl9KjLmPUy_zLY41oMbNdUawhOtSvn26aBsakvbgLrOu5Naj-d9T_zw==&uniplatform=NZKPT",
-        ),
+        ), 
         link("@Rocky 💕", "https://www.rocky-xrq.com"),
     ],
 )
@@ -28,8 +28,8 @@ moments = Moments(
     title="🎉 Moments",
     posts=[
         Post(
-            date="2024.07.19",
-            description="Published a new utility patent in Engineering Science & Technology I",
+            date="2025.02.26",
+            description="Published a new paper in Ceramics International",
         ),
         Post(
             date="2024.06.04",
